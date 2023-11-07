@@ -1,0 +1,143 @@
+@media screen and (max-width:1110px) {
+    .header__mobile {
+        display: block;
+    }
+
+    #paper_2 {
+        display: block;
+    }
+
+    #paper_1 {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__icons {
+        display: none;
+    }
+
+    .header__logo_m {
+        width: 90%;
+        height: 35px;
+        margin: 0 auto;
+        padding-top: 13px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .head {
+        width: 90%;
+        min-height: 470px;
+    }
+
+    .head__box {
+        max-width: 390px;
+    }
+
+    .head__box h1 {
+        font-size: 50px;
+    }
+
+    .header__icons_m {
+        max-width: 78px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .results__big-card-img img {
+        max-width: 330px;
+    }
+
+    .results__card-info {
+        flex-direction: column;
+    }
+
+    .results__card-info img {
+        width: 160px;
+    }
+
+    .results__box {
+        justify-content: baseline;
+        align-items: center;
+        gap: 40px;
+        width: 90%;
+    }
+
+    .book__img {
+        max-width: 449px;
+    }
+
+    .book__img img {
+        width: 100%;
+    }
+
+    .results__big-text h1 {
+        font-size: 30px;
+    }
+
+    .firms__card {
+        max-width: 150px;
+        min-height: 80px;
+    }
+
+    .firms__card img {
+        width: 75%;
+    }
+
+    .firms {
+        min-height: 200px;
+    }
+
+    #book1 {
+        display: none;
+    }
+
+    #book2 {
+        display: block;
+    }
+
+    .book__right {
+        justify-content: flex-end;
+    }
+
+    .results {
+        min-height: 810px;
+
+    }
+
+    .results__big-text p {
+        max-width: 330px;
+    }
+
+    .cards__boxes {
+        margin-top: 60px;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .cards__box {
+        max-width: 330px;
+    }
+
+    .cards__img,
+    .cards__img2,
+    .cards__img3,
+    .cards__img4 {
+        max-width: 330px;
+        background-position: 0px 0px;
+    }
+
+    .book {
+        min-height: 394px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer__cont {
+        width: 90%;
+    }
+}

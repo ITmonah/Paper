@@ -1,0 +1,96 @@
+@media screen and (max-width:767px) {
+    .head__box h1 {
+        font-size: 38px;
+    }
+
+    .results__box {
+        min-height: 900px;
+    }
+
+    .results__card-text p,
+    h1 {
+        font-size: 16px;
+    }
+
+    .results__big-text h1 {
+        font-size: 24px;
+    }
+
+    .results__big-text p {
+        font-size: 16px;
+    }
+
+    .results__big-card {
+        flex-direction: column;
+        justify-content: left;
+        margin-right: auto;
+    }
+
+    .results__big-text p {
+        max-width: 95%;
+        height: 199px;
+    }
+
+    .cards__box {
+        max-width: 240px;
+    }
+
+    .cards__img,
+    .cards__img2,
+    .cards__img3,
+    .cards__img4 {
+        max-width: 240px;
+        background-position: -40px 0px;
+    }
+
+    .cards__text p {
+        font-size: 16px;
+    }
+
+    .cards__text h1 {
+        font-size: 24px;
+    }
+
+    .cards {
+        min-height: 1028px;
+    }
+
+    .firms {
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .firms__card {
+        max-width: 240px;
+        min-height: 127px;
+    }
+
+    .book {
+        flex-direction: column-reverse;
+        gap: 10px;
+        min-height: 687px;
+    }
+
+    .book__right {
+        justify-content: center;
+    }
+
+    .book__text h1 {
+        font-size: 24px;
+    }
+
+    .book__text p {
+        font-size: 16px;
+    }
+
+    .book__text {
+        max-width: 100%;
+        min-height: 0px;
+    }
+
+    .book__btn button {
+        padding: 14px 64px;
+    }
+}
